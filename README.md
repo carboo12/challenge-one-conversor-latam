@@ -9,6 +9,10 @@ En esta app fui mas allá de lo aprendido, quise que en la parte de conversor de
 
 ![Captura de pantalla (120)](https://user-images.githubusercontent.com/91108284/223812191-ecc16650-abd6-41ec-a878-e658408a0cd7.png)
 
+
+![Captura de pantalla (122)](https://user-images.githubusercontent.com/91108284/223812873-41c5aefc-58ce-4b78-98a0-5aa522c06688.png)
+
+
 ![Captura de pantalla (124)](https://user-images.githubusercontent.com/91108284/223812368-2af7544d-b678-41cd-b844-7fe90809abc2.png)
 
 
