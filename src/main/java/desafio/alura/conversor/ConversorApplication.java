@@ -20,8 +20,11 @@ public class ConversorApplication {
 		mensaje = hora.obtenerSaludoSegunHora();
 		JOptionPane.showMessageDialog(null, mensaje + " BIENVENIDO A ESTA APP", "APLICACION DE CONVERCION",
 				JOptionPane.INFORMATION_MESSAGE);
+				//qui use un ciclo Do-While para que al final de cada operacion me pregunto se deseo seguir
 		do {
 			JPanel panel = new JPanel();
+			//aqui defino opciones como mi lista para despues integrarla al comboBox
+			//de la misma manera para toddos los demas comboBox
 			String[] opciones = {"Convertir monedas", "Convertir temperaturas"};
 			JComboBox<String> cboOpciones = new JComboBox<>(opciones);
 			panel.add(cboOpciones);
@@ -35,6 +38,7 @@ public class ConversorApplication {
 					JPanel panel2 = new JPanel();
 					double amount = Double.parseDouble(amountString);
 					JComboBox<monedas> cboMonedaOrigen = new JComboBox<>(monedas.values());
+					//aqui tuve que definir dos panel por que se repetia las listas y daben un especi de error
 					panel2.add(cboMonedaOrigen);
 					panel2.add(label);
 					JComboBox<monedas> cboMonedaDestino = new JComboBox<>(monedas.values());
@@ -74,11 +78,12 @@ public class ConversorApplication {
 			} else {
 				JOptionPane.showMessageDialog(null, "¡Hasta pronto!", "APLICACION DE CONVERCION",
 						JOptionPane.INFORMATION_MESSAGE);
-				System.exit(0);
+				System.exit(0);				
 			}
 			respuesta = JOptionPane.showConfirmDialog(null, "¿Desea realizar otra conversión?", "Continuar",
 					JOptionPane.YES_NO_OPTION);
 		}while (respuesta == JOptionPane.YES_OPTION);
+		//aqui cierra el ciclo si la respues es no de lo contrario seguira preguntando
 		JOptionPane.showMessageDialog(null, "¡Adiós!");
 	}
 }

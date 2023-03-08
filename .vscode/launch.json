@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ConversorApplication<conversor>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "desafio.alura.conversor.ConversorApplication",
+            "projectName": "conversor",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -21,6 +21,7 @@ public class ConvertirImplem {
 	  @SuppressWarnings("unused")
 	public  Double callApi(double amount, monedas fromCurrency, monedas toCurrency) throws IOException {
 		  double exchangeRate = 0.0;
+		  //aqui con la variable apiUrl defino la conexion a la api
 		  String API_URL = "https://api.apilayer.com/exchangerates_data/convert?to=" + toCurrency + "&from=" + fromCurrency + "&amount=" + amount;
 		  try {
 			  //para hacer uso de esta app se tiene que realizar peticiones de tipo Get de la manera que el servidor de la appi recomienda
