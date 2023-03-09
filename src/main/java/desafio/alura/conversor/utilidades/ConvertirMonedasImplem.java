@@ -1,20 +1,17 @@
 package desafio.alura.conversor.utilidades;
 
 
+import desafio.alura.conversor.enums.monedas;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.net.URLConnection;
 
 
-public class ConvertirImplem {
+public class ConvertirMonedasImplem {
 
 	//esta es mi api key la cual es gratis, la que me permite acceder a usar dicha appi
 	private static final String API_KEY = "KPiZxi7bVjnvehgGRnBytXQbP8MDXIDW";

@@ -1,4 +1,4 @@
-package desafio.alura.conversor.utilidades;
+package desafio.alura.conversor.enums;
 
 public enum monedas {
 	//listado de tipos de monedas

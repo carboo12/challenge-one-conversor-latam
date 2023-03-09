@@ -1,6 +1,8 @@
 package desafio.alura.conversor.utilidades;
 
-public class ConversorTemperatura {
+import desafio.alura.conversor.enums.TiposTemperaturas;
+
+public class ConversorTemperaturaImp {
     // aqui implemente un simple switch case para saber que fomula ocupara para convertir los valores
     public double convertirTemperatura(double cantidad, TiposTemperaturas fromTemperature, TiposTemperaturas toTemperature) {
         double temperaturaConvertida = 0.0;
